@@ -1,20 +1,5 @@
-#include "Faktury-func.h"
+#include "Fv-func.h"
 
-bool isFvCheck(const std::string &fname)
-{
-	char c;
-
-	std::cout << "Czy chcesz dodaæ plik: [" << fname << "]";
-	std::cout << " jako fakturê VAT ?\n\n[Enter] = tak, to jest poprawna faktura\n[ESC] = nie, to nie jest faktura\n";
-
-	while ((c = getchar()) != '\n')
-	{
-		if (c == 27)
-			return false;
-	}
-
-	return true;
-}
 
 int getdir(std::string dir, std::vector<ScannedFile> &files, bool recursive)
 {

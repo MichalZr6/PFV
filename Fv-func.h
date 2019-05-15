@@ -13,6 +13,5 @@ typedef System::String^ USTRING;
 class ScannedFile;
 
 int getdir(std::string dir, std::vector<ScannedFile> &files, bool recursive = false);
-bool isFvCheck(const std::string &fname);
 USTRING FvToOutput(const FvInfo & fv_info);
 bool CheckPayment(const FvInfo &fv);

@@ -1,5 +1,5 @@
 ﻿/*
- * funkcje.cpp
+ *  Functions.cpp
  *
  *  Created on: 2010-04-11
  *  
