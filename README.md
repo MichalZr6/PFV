@@ -20,13 +20,12 @@ Despite pure c++ coding in VS requires some special efforts, I continued this pr
 
 Some important notes:
 - BasicExcel.hpp is rather old, but gives the project all it needs
-- PFV generates new excel file for merged old and new entries (defined in Globals.h)
+- PFV generates new excel file for merged old and new entries (quantity is defined in Globals.h) - it could rewrite the original file, but I find it too early
 - some features are not yet implemented (i.a. main menu)
 
 Future tasks:
-- saving user input as backup every entry read
+- saving user input as backup every entry read and reading the backup file in case of crush or major user mistake
 - adding functionality to edit chosen entry (current UI only allows user to delete last entry)
 - moving defined constants from code to a new UI window, available from main menu
-
 - implementing SQL database instead of XLS file
 - implementing 'Company Storage'
