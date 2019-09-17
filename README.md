@@ -1,8 +1,7 @@
 # PFV
 Invoice Manager with Excel Database
 
-I started this project as some help with my company accounting.
-Every received invoice or document is scanned. The invoice information is stored in excel 'database'.
+I started this project as some help with my company accounting. In the begining I scanned every document and wrote invoice details to XLS file. The more company grew, the more work had to be done.
 The PFV tasks: 
 - loading scanned files from FV folder
 - reading UI files' info such as company name, invoice id, date, prices, etc.
@@ -12,19 +11,19 @@ The PFV tasks:
 - generating merged 'database' xls file with PFV records
 - renaming all scanned files to a user defined name (when it's not invoice file) or to auto-generated, based on invoice id and company name.
 
-I've tried many different programming platforms before. and this time wanted to test Visual Studio.
-It quickly turned out however, that pure c++ coding in VS requires some special efforts.
-Despite this, the program's code grew larger in time.
+I've used many different programming platforms before. This time wanted to try Visual Studio.
+Despite pure c++ coding in VS requires some special efforts, I continued this project.
 
 
 Some important notes:
-- BasicExcel.hpp is rather old but works fine with this project
-- PFV generates new excel file for merged 1000 (defined in Globals.h) old and new entries
+- BasicExcel.hpp is rather old, but gives the project all it needs
+- PFV generates new excel file for merged old and new entries (defined in Globals.h)
 - some features are not yet implemented (i.a. main menu)
 
 Future tasks:
 - saving user input as backup every entry read
 - adding functionality to edit chosen entry (currently UI only allows user to delete last entry)
+- moving defined constants from code to a new UI window, available from main menu
 
 - implementing SQL database instead of XLS file
 - implementing 'Company Storage'
