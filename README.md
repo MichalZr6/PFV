@@ -20,10 +20,11 @@ Despite this, the program's code grew larger in time.
 Some important notes:
 - BasicExcel.hpp is rather old but works fine with this project
 - PFV generates new excel file for merged 1000 (defined in Globals.h) old and new entries
-- some features are not yet implemented; the most important thing is that PFV works and greatly shortens my time spent on documents managing
+- some features are not yet implemented (i.a. main menu)
 
 Future tasks:
-- substitution excel 'database' with SQL
-- implementing 'Company Storage'
-- adding functionality to edit chosen entry (currently UI only allows user to delete last entry)
 - saving user input as backup every entry read
+- adding functionality to edit chosen entry (currently UI only allows user to delete last entry)
+
+- implementing SQL database instead of XLS file
+- implementing 'Company Storage'
