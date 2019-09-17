@@ -25,7 +25,7 @@ Some important notes:
 
 Future tasks:
 - saving user input as backup every entry read
-- adding functionality to edit chosen entry (currently UI only allows user to delete last entry)
+- adding functionality to edit chosen entry (current UI only allows user to delete last entry)
 - moving defined constants from code to a new UI window, available from main menu
 
 - implementing SQL database instead of XLS file
