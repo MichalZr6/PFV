@@ -3,7 +3,7 @@ Invoice Manager with Excel Database
 
 I started this project to support my company's accounting. 
 
-In the begining I scanned every document and wrote invoice details to XLS file. The more company grew, the more work had to be done.
+In the begining I'd scanned every document and written invoice details to XLS file. The more company grew, the more work had to be done.
 
 The PFV tasks: 
 - loading scanned files from FV folder
